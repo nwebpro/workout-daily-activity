@@ -13,11 +13,11 @@ const Activity = ({activity, addToList}) => {
                     </a>
                     <div className="flex-grow flex flex-col p-5">
                         <div className='mb-3'>
-                            <span className='border border-red-500 text-white bg-red-500 uppercase px-3 py-1 rounded-full text-[10px] tracking-wide2'>
+                            <span className='border border-red-500 text-white bg-red-500 px-3 py-1 rounded-full text-[10px] tracking-wide2'>
                                 Age: {age}
                             </span>
-                            <span className='border border-red-500 text-white bg-red-500 uppercase px-3 py-1 rounded-full text-[10px] tracking-wide ml-2'>
-                                Time: {time}h
+                            <span className='border border-red-500 text-white bg-red-500 px-3 py-1 rounded-full text-[10px] tracking-wide ml-2'>
+                                Time: {time}m
                             </span>
                         </div>
                         <div className="flex-grow">
@@ -26,7 +26,7 @@ const Activity = ({activity, addToList}) => {
                                     <h3 className="text-[22px] text-gray-900 font-extrabold leading-snug">{name}</h3>
                                 </a>
                             </header>
-                            <p>{description}</p>
+                            <p>{description ? description.slice(0, 99) + '...' : 'No data found!'}</p>
                         </div>
                         <div className="flex space-x-2">
                             <button onClick={() => addToList(activity)} className="mt-4 px-4 py-2 bg-purple-500 hover:bg-purple-600 transition hover:transition text-white text-sm font-medium rounded-md w-full">

@@ -3,25 +3,25 @@
     "id": "1",
     "name": "Hand Grip",
     "img": "https://ae01.alicdn.com/kf/H6a350f85241a4a6c9a39c075d82e875bW/100lbs-300lbs-Hand-Grip-Strengthener-Heavy-Grip-Trainer-Arm-Finger-Rehabilitation-Exercise-Power-Handgrip-Hand-Gripper.jpg_Q90.jpg_.webp",
-    "time": 2,
-    "description": "I exercise 1 to 2 hours daily to improve my hand strength through Hand Grip.",
-    "age": "20"
+    "time": 30,
+    "description": "A handgrip exercise is a small device that aims to strengthen a lifter’s grip and forearm strength. The operation of a hand grip exerciser is quite simple.",
+    "age": "20 - 25"
   },
   {
     "id": "2",
-    "name": "Hand Grip",
-    "img": "https://ae01.alicdn.com/kf/H6a350f85241a4a6c9a39c075d82e875bW/100lbs-300lbs-Hand-Grip-Strengthener-Heavy-Grip-Trainer-Arm-Finger-Rehabilitation-Exercise-Power-Handgrip-Hand-Gripper.jpg_Q90.jpg_.webp",
-    "time": 2,
-    "description": "I exercise 1 to 2 hours daily to improve my hand strength through Hand Grip.",
-    "age": "20"
+    "name": "Yoga",
+    "img": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/yoga-mats-2020-1594248055.jpg?crop=0.497xw:0.993xh;0.270xw,0.00651xh&resize=640:*",
+    "time": 15,
+    "description": "Although yoga classes do require yoga mats, they are not the only places where yoga mats can be found. Most gyms house mats of this kind in warm-up areas in order to provide this soft surface for the lifter to exercise on.",
+    "age": "20 - 25"
   },
   {
     "id": "3",
-    "name": "Hand Grip",
-    "img": "https://ae01.alicdn.com/kf/H6a350f85241a4a6c9a39c075d82e875bW/100lbs-300lbs-Hand-Grip-Strengthener-Heavy-Grip-Trainer-Arm-Finger-Rehabilitation-Exercise-Power-Handgrip-Hand-Gripper.jpg_Q90.jpg_.webp",
-    "time": 2,
-    "description": "I exercise 1 to 2 hours daily to improve my hand strength through Hand Grip.",
-    "age": "20"
+    "name": "Push up",
+    "img": "https://www.fitnesseducation.edu.au/wp-content/uploads/2020/10/Pushups.jpg",
+    "time": 7,
+    "description": "Push up bars are curved metal or plastic bars that allow lifters to perform the pushup movement without putting excessive pressure on the wrists.",
+    "age": "20 - 25"
   },
   {
     "id": "4",
@@ -29,7 +29,7 @@
     "img": "https://ae01.alicdn.com/kf/H6a350f85241a4a6c9a39c075d82e875bW/100lbs-300lbs-Hand-Grip-Strengthener-Heavy-Grip-Trainer-Arm-Finger-Rehabilitation-Exercise-Power-Handgrip-Hand-Gripper.jpg_Q90.jpg_.webp",
     "time": 2,
     "description": "I exercise 1 to 2 hours daily to improve my hand strength through Hand Grip.",
-    "age": "20"
+    "age": "20 - 25"
   },
   {
     "id": "5",
@@ -37,7 +37,7 @@
     "img": "https://ae01.alicdn.com/kf/H6a350f85241a4a6c9a39c075d82e875bW/100lbs-300lbs-Hand-Grip-Strengthener-Heavy-Grip-Trainer-Arm-Finger-Rehabilitation-Exercise-Power-Handgrip-Hand-Gripper.jpg_Q90.jpg_.webp",
     "time": 2,
     "description": "I exercise 1 to 2 hours daily to improve my hand strength through Hand Grip.",
-    "age": "20"
+    "age": "20 - 25"
   },
   {
     "id": "6",
@@ -45,7 +45,7 @@
     "img": "https://ae01.alicdn.com/kf/H6a350f85241a4a6c9a39c075d82e875bW/100lbs-300lbs-Hand-Grip-Strengthener-Heavy-Grip-Trainer-Arm-Finger-Rehabilitation-Exercise-Power-Handgrip-Hand-Gripper.jpg_Q90.jpg_.webp",
     "time": 2,
     "description": "I exercise 1 to 2 hours daily to improve my hand strength through Hand Grip.",
-    "age": "20"
+    "age": "20 - 25"
   },
   {
     "id": "7",
@@ -53,7 +53,7 @@
     "img": "https://ae01.alicdn.com/kf/H6a350f85241a4a6c9a39c075d82e875bW/100lbs-300lbs-Hand-Grip-Strengthener-Heavy-Grip-Trainer-Arm-Finger-Rehabilitation-Exercise-Power-Handgrip-Hand-Gripper.jpg_Q90.jpg_.webp",
     "time": 2,
     "description": "I exercise 1 to 2 hours daily to improve my hand strength through Hand Grip.",
-    "age": "20"
+    "age": "20 - 25"
   },
   {
     "id": "8",
@@ -61,6 +61,6 @@
     "img": "https://ae01.alicdn.com/kf/H6a350f85241a4a6c9a39c075d82e875bW/100lbs-300lbs-Hand-Grip-Strengthener-Heavy-Grip-Trainer-Arm-Finger-Rehabilitation-Exercise-Power-Handgrip-Hand-Gripper.jpg_Q90.jpg_.webp",
     "time": 2,
     "description": "I exercise 1 to 2 hours daily to improve my hand strength through Hand Grip.",
-    "age": "20"
+    "age": "20 - 25"
   }
 ]

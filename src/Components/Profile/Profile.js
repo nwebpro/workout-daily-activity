@@ -1,13 +1,22 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
+import { addListLS, getStoredList } from '../Utilities/LocalStorage';
 import Break from './Break';
 import ExerciseDetails from './ExerciseDetails';
 
 const Profile = ({addList}) => {
-    const [first, setfirst] = useState(0);
-
+    const [breakTime, setBreakTime] = useState(0);
+    const [getTime, setGetTime] = useState([]);
+    
     const addBreakTime =  (time) => {
-        setfirst(time);
+        addListLS(time);
+        setBreakTime(time);
     }
+
+    // Get Local Storage
+    useEffect(() => {
+        const getStore = getStoredList();
+        setGetTime(getStore);
+    }, [breakTime])
 
     return (
         <div>
@@ -55,7 +64,7 @@ const Profile = ({addList}) => {
                         </div>
                     </div>
                     <Break addBreakTime={addBreakTime} />
-                    <ExerciseDetails addList={addList} first={first} />
+                    <ExerciseDetails addList={addList} getTime={getTime} />
                 </header>
             </section>
         </div>
