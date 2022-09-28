@@ -3,7 +3,7 @@ import Activity from '../Activity/Activity';
 
 const Activities = () => {
     return (
-        <div>
+        <section>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
                 <Activity />
                 <Activity />
@@ -12,7 +12,7 @@ const Activities = () => {
                 <Activity />
                 <Activity />
             </div>
-        </div>
+        </section>
     );
 };
 

@@ -1,4 +1,6 @@
 import React from 'react';
+import Break from './Break';
+import ExerciseDetails from './ExerciseDetails';
 
 const Profile = () => {
     return (
@@ -46,6 +48,8 @@ const Profile = () => {
                             <span className='text-lg'>Age</span>
                         </div>
                     </div>
+                    <Break />
+                    <ExerciseDetails />
                 </header>
             </section>
         </div>

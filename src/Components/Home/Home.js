@@ -5,7 +5,7 @@ import Profile from '../Profile/Profile';
 
 const Home = () => {
     return (
-        <div>
+        <section>
             <div className='container mx-auto px-4 md:px-0 py-10'>
                 <div className="flex flex-col-reverse md:flex-row gap-5">
                     <div className='w-full md:w-3/4'>
@@ -19,7 +19,7 @@ const Home = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     );
 };
 
