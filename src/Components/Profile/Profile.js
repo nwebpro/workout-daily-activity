@@ -2,7 +2,8 @@ import React from 'react';
 import Break from './Break';
 import ExerciseDetails from './ExerciseDetails';
 
-const Profile = () => {
+const Profile = ({addList}) => {
+    
     return (
         <div>
             <section className="antialiased bg-gray-50 text-gray-600 p-2 mt-12 relative">
@@ -49,7 +50,7 @@ const Profile = () => {
                         </div>
                     </div>
                     <Break />
-                    <ExerciseDetails />
+                    <ExerciseDetails addList={addList} />
                 </header>
             </section>
         </div>
