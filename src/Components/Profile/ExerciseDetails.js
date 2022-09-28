@@ -1,6 +1,6 @@
 import React from 'react';
 
-const ExerciseDetails = ({addList}) => {
+const ExerciseDetails = ({addList, first}) => {
     let time = 0;
     for (const list of addList) {
         time = time + list.time;
@@ -14,7 +14,7 @@ const ExerciseDetails = ({addList}) => {
             </div>
             <div className='flex justify-between items-center p-5 bg-slate-200 rounded-lg  mb-3'>
                 <p className='text-base text-black font-medium'>Break Time</p>
-                <p className='text-base'>10 Minutes</p>
+                <p className='text-base'>{first} Minutes</p>
             </div>
             <div className="flex space-x-2">
                 <button className="mt-4 px-4 py-4 bg-purple-500 hover:bg-purple-600 transition hover:transition text-white text-sm font-medium rounded-md w-full">

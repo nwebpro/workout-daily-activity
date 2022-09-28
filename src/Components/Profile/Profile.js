@@ -1,9 +1,14 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Break from './Break';
 import ExerciseDetails from './ExerciseDetails';
 
 const Profile = ({addList}) => {
-    
+    const [first, setfirst] = useState(0);
+
+    const addBreakTime =  (time) => {
+        setfirst(time);
+    }
+
     return (
         <div>
             <section className="antialiased bg-gray-50 text-gray-600 p-2 mt-12 relative">
@@ -49,8 +54,8 @@ const Profile = ({addList}) => {
                             <span className='text-lg'>Age</span>
                         </div>
                     </div>
-                    <Break />
-                    <ExerciseDetails addList={addList} />
+                    <Break addBreakTime={addBreakTime} />
+                    <ExerciseDetails addList={addList} first={first} />
                 </header>
             </section>
         </div>
