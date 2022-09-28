@@ -1,6 +1,7 @@
 import React from 'react';
 import Activities from '../Activities/Activities';
 import Header from '../Header/Header';
+import Profile from '../Profile/Profile';
 
 const Home = () => {
     return (
@@ -12,7 +13,9 @@ const Home = () => {
                         <Activities />
                     </div>
                     <div className='w-full md:w-3/12 px-2  relative'>
-                        <h3 className='text-2xl'>Ab Naeem</h3>
+                        <h3 className='text-2xl'>
+                            <Profile />
+                        </h3>
                     </div>
                 </div>
             </div>
