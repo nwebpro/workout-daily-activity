@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { addListLS, getStoredList } from '../Utilities/LocalStorage';
 import Break from './Break';
 import ExerciseDetails from './ExerciseDetails';
+import Swal from 'sweetalert2';
 
 const Profile = ({addList}) => {
     const [breakTime, setBreakTime] = useState(0);
@@ -17,6 +18,10 @@ const Profile = ({addList}) => {
         const getStore = getStoredList();
         setGetTime(getStore);
     }, [breakTime])
+
+    const activityCompleted = () => {
+        Swal.fire(`Congratulations!`, "Your Activity Completed!", "success");
+    }
 
     return (
         <div>
@@ -64,7 +69,7 @@ const Profile = ({addList}) => {
                         </div>
                     </div>
                     <Break addBreakTime={addBreakTime} />
-                    <ExerciseDetails addList={addList} getTime={getTime} />
+                    <ExerciseDetails addList={addList} getTime={getTime} activityCompleted={activityCompleted} />
                 </header>
             </section>
         </div>
