@@ -3,7 +3,7 @@ import React from 'react';
 const Activity = ({activity, addToList}) => {
     const {name, img, time, description, age} = activity;
     return (
-        <section className="flex flex-col justify-center antialiased bg-gray-50 text-gray-600">
+        <div className="flex flex-col justify-center antialiased bg-gray-50 text-gray-600">
             <div className="h-full">
                 <div className="flex flex-col h-full bg-white shadow-lg rounded-lg overflow-hidden">
                     <a className="block focus:outline-none focus-visible:ring-2" href="#0">
@@ -36,7 +36,7 @@ const Activity = ({activity, addToList}) => {
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
     );
 };
 

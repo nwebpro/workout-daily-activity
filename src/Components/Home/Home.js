@@ -27,10 +27,10 @@ const Home = () => {
                         <Header />
                         <Activities activities={activities} addToList={addToList} />
                     </div>
-                    <div className='w-full md:w-3/12 px-2  relative'>
-                        <h3 className='text-2xl'>
+                    <div className='w-full md:w-3/12 px-2 relative'>
+                        <div className='sticky top-5'>
                             <Profile addList={addList} />
-                        </h3>
+                        </div>
                     </div>
                 </div>
             </div>

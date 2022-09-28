@@ -25,42 +25,50 @@
   },
   {
     "id": "4",
-    "name": "Hand Grip",
-    "img": "https://ae01.alicdn.com/kf/H6a350f85241a4a6c9a39c075d82e875bW/100lbs-300lbs-Hand-Grip-Strengthener-Heavy-Grip-Trainer-Arm-Finger-Rehabilitation-Exercise-Power-Handgrip-Hand-Gripper.jpg_Q90.jpg_.webp",
-    "time": 2,
-    "description": "I exercise 1 to 2 hours daily to improve my hand strength through Hand Grip.",
+    "name": "Barbell Rack",
+    "img": "https://www.dragonsports.eu/5242811-verylarge_default/barbell-weight-rack.jpg",
+    "time": 10,
+    "description": "A barbell rack is a large stationary piece of architecture that is required when performing many exercises. Usually standing 8 to 12 ft tall, barbell racks allow a lifter the optimal place to pick up and place down the weight.",
     "age": "20 - 25"
   },
   {
     "id": "5",
-    "name": "Hand Grip",
-    "img": "https://ae01.alicdn.com/kf/H6a350f85241a4a6c9a39c075d82e875bW/100lbs-300lbs-Hand-Grip-Strengthener-Heavy-Grip-Trainer-Arm-Finger-Rehabilitation-Exercise-Power-Handgrip-Hand-Gripper.jpg_Q90.jpg_.webp",
-    "time": 2,
-    "description": "I exercise 1 to 2 hours daily to improve my hand strength through Hand Grip.",
+    "name": "Dumbbell",
+    "img": "https://cdn.muscleandstrength.com/sites/default/files/field/image/workout/fit-man-dumbbell-workout-400.jpg",
+    "time": 12,
+    "description": "An adjustable dumbbell system (ADS) is a single dumbbell, about 12-18 inches wide, that gives the lifter the ability to rotate or change the weight in 2.5 pound increments.",
     "age": "20 - 25"
   },
   {
     "id": "6",
-    "name": "Hand Grip",
-    "img": "https://ae01.alicdn.com/kf/H6a350f85241a4a6c9a39c075d82e875bW/100lbs-300lbs-Hand-Grip-Strengthener-Heavy-Grip-Trainer-Arm-Finger-Rehabilitation-Exercise-Power-Handgrip-Hand-Gripper.jpg_Q90.jpg_.webp",
-    "time": 2,
-    "description": "I exercise 1 to 2 hours daily to improve my hand strength through Hand Grip.",
+    "name": "Bench Press",
+    "img": "https://dagodsfitnesshome.files.wordpress.com/2019/03/incline-bench-1-2.jpg",
+    "time": 8,
+    "description": "A bench press is a large piece of equipment that encompasses a lifting bench, small barbell rack, and barbell. The bench press system works together to allow the lifter to complete a number of pressing movements.",
     "age": "20 - 25"
   },
   {
     "id": "7",
-    "name": "Hand Grip",
-    "img": "https://ae01.alicdn.com/kf/H6a350f85241a4a6c9a39c075d82e875bW/100lbs-300lbs-Hand-Grip-Strengthener-Heavy-Grip-Trainer-Arm-Finger-Rehabilitation-Exercise-Power-Handgrip-Hand-Gripper.jpg_Q90.jpg_.webp",
-    "time": 2,
-    "description": "I exercise 1 to 2 hours daily to improve my hand strength through Hand Grip.",
+    "name": "Air Resistance Bike",
+    "img": "https://www.britannica.com/reviews/wp-content/uploads/2022/07/Schwinn-IC4-Indoor-Cycling-Bike-scaled.jpg",
+    "time": 20,
+    "description": "An air resistance bike is a piece of equipment that mimics the actions and muscle activation involved in riding a bike. The machine operates much like a bike itself, with small pedals for your feet, and handles up top to hold on to.",
     "age": "20 - 25"
   },
   {
     "id": "8",
-    "name": "Hand Grip",
-    "img": "https://ae01.alicdn.com/kf/H6a350f85241a4a6c9a39c075d82e875bW/100lbs-300lbs-Hand-Grip-Strengthener-Heavy-Grip-Trainer-Arm-Finger-Rehabilitation-Exercise-Power-Handgrip-Hand-Gripper.jpg_Q90.jpg_.webp",
-    "time": 2,
-    "description": "I exercise 1 to 2 hours daily to improve my hand strength through Hand Grip.",
+    "name": "Treadmill",
+    "img": "https://static.nike.com/a/images/w_1920,c_limit/e1e8160d-bcd7-4427-b953-2716fef115b5/the-5-benefits-of-running-on-a-treadmill-according-to-experts.jpg",
+    "time": 18,
+    "description": "The treadmill is the most popular piece of gym equipment usd to improve cardiovascular endurance. Treadmills are very customizable, allowing users to speed or or slow the moving platform however they please.",
+    "age": "20 - 25"
+  },
+  {
+    "id": "9",
+    "name": "Glute Ham Developer",
+    "img": "https://workoutz.com/pub/media/catalog/product/cache/73da9e58925dfc154a99137ec6721b70/b/o/bodysolidgluteham.jpg",
+    "time": 10,
+    "description": "The glute ham developer is a piece of gym equipment used to train the glutes and hamstrings together. To use it, the athlete will lay facing down with their quads on a padded bar with their feet strapped in place.",
     "age": "20 - 25"
   }
 ]
