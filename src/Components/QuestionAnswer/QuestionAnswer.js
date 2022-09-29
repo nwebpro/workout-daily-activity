@@ -85,7 +85,7 @@ const QuestionAnswer = () => {
                 <details className="p-6 border-l-4 border-green-500 bg-gray-50 group">
                     <summary className="flex items-center justify-between cursor-pointer">
                         <h5 className="text-lg font-medium text-gray-900">
-                            Why we are use UseEffect?
+                            Why do we use useEffect in react?
                         </h5>
                         <span
                             className="flex-shrink-0 ml-1.5 p-1.5 text-gray-900 bg-white rounded-full sm:p-3"
